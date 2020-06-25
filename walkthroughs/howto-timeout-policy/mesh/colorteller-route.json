@@ -11,6 +11,12 @@
             },
             "match": {
                 "prefix": "/"
+            },
+            "timeout" : {
+                "perRequest": {
+                    "value" : 5,
+                    "unit" : "s"
+                }
             }
         }
     }
